@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Charity Form for Likharal</title>
+            <link rel="stylesheet" type="text/css" href="campStyles.css">
+        </head>
+        <body>
+
+            <h1>Campaign form for Likharal!</h1>
+            <p>Skibidi Toilet</p>
+            <form id="supportChar">
+                <fieldset id="detailInput">
+                    <legend>Support the Charity!</legend>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required><br><br>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required><br><br>
+
+                    <p>Gender</p>
+                    <div class="gendergroup">
+                        <input type="radio" id="userMale" name="genDer" value="Male" required>
+                        <label for="userMale">Male</label>
+                    
+                        <input type="radio" id="userFemale" name="genDer" value="Female">
+                        <label for="userFemale">Female</label>
+                    
+                        <input type="radio" id="prefNot" name="genDer" value="prefNot">
+                        <label for="prefNot">Prefer Not to Say</label>
+                    </div>
+
+                    <label for="onlineMail">Email: </label>
+                    <input type="text" id="onlineMail" name="onlineMail" required><br><br>
+
+                    <label for="contNumber">Contact Number: </label>
+                    <input type="text" id="contNumber" name="contNumber"><br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </fieldset>
+
+            </form>
+        </body>
+    </html>
